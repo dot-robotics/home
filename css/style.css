@@ -10,7 +10,7 @@ html {
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(https://drive.google.com/file/d/1zd0nZtYueKHwGKO9i5WxSLiQYOLO51eO/view?usp=sharing); 
+    background-image: url(home/css/background-new.jpg); 
     background-size:cover;
     background-position: center;
 }
