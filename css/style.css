@@ -10,7 +10,7 @@ html {
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(../css/background-new.jpg); 
+    background-image: url(dot-robotics/home/css/background-new.jpg); 
     background-size:cover;
     background-position: center;
 }
