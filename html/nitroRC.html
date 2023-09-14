@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+    <link href="https://fonts.cdnfonts.com/css/gtek-technology" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/nitroRC_style.css" />
+    <!-- Compiled and minified CSS -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Kalam:wght@300&family=Kaushan+Script&family=Poiret+One&family=Poppins:wght@300;400;500;600;700;800;900&family=REM:wght@300&family=Racing+Sans+One&family=Space+Grotesk&display=swap" rel="stylesheet">
+
+    <title>DOT Robotics | WD Racing</title>
+  </head>
+  <body>
+    <!---Header--->
+    <header>
+      <span class="year">2018-2023</span>
+      <a href="#" class="logo"><img src="../assest/robots_assets/img_robots/WD Racing B&W Logo.png" alt="logo"/></a>
+      <a href="#" class="menu" onclick="toggleMenu();"></a>
+    </header>
+    <div class="banner">
+      <ul class="nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="robots.html">Combat Robots</a></li>
+        <li><a href="roboRace.html">RoboRace</a></li>
+      </ul>
+      <div class="bg-video-list">
+        <video
+          class="bg-video mclaren-1 active" 
+          src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Losi_Trailer.mp4"
+          autoplay
+          muted
+          loop>
+        </video>
+        <video
+          class="bg-video mclaren-2" 
+          src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Serpent_Trailer.mp4"
+          autoplay
+          muted
+          loop>
+        </video>
+        <video
+          class="bg-video mclaren-3" 
+          src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Sworkz_Trailer.mp4"
+          autoplay
+          muted
+          loop>
+        </video>
+        <video
+          class="bg-video mclaren-4" 
+          src="../assest/robots_assets/videos_robots/mclaren-4.mp4"
+          autoplay
+          muted
+          loop>
+        </video>
+        <video
+          class="bg-video mclaren-5" 
+          src="../assest/robots_assets/videos_robots/mclaren-5.mp4"
+          autoplay
+          muted
+          loop>
+        </video>
+      </div>
+      <div class="content">
+        <h1>robots</h1>
+        <h3 class="model mclaren-1 active" style="color: #ff0000;">LOSI</h3>
+        <h3 class="model mclaren-2" style="color: #92ff00;">SERPENT</h3>
+        <h3 class="model mclaren-3" style="color: #ff0015;">SWORKZ</h3>
+        <h3 class="model mclaren-4" style="color: #ff2e00;">VIKRAM</h3>
+        
+        <h4>What is Nitro RC?</h4>
+        <p>"Nitro RC racing, the ultimate adrenaline rush on wheels! In this high-octane event, nitro-powered remote control cars tear up the track with speed and precision, thrilling participants and spectators alike. It's a test of skill, strategy, and engineering as racers compete to be the fastest and most agile on the course. Nitro RC events offer the perfect blend of competition and excitement for enthusiasts of all ages, making it a true spectacle of speed and control."</p>
+        <h5 class="model mclaren-1 active"><a href="nitroRC_Cars_html/losi_specs.html" target="_blank">More Info</a></h5>
+        <h5 class="model mclaren-2"><a href="nitroRC_Cars_html/serpent_specs.html" target="_blank">More Info</a></h5>
+        <h5 class="model mclaren-3"><a href="nitroRC_Cars_html/sworkz_specs.html" target="_blank">More Info</a></h5>
+        <h5 class="model mclaren-4"><a href="nitroRC_Cars_html/losi_specs.html" target="_blank">More Info</a></h5>
+
+      </div>
+      <!---Video Play and Pause Button--->
+      <a href="#" class="pause active" onclick="pauseVideo();">
+        <i class="bi bi-pause-circle"></i>
+      </a>
+      <a href="#" class="play" onclick="playVideo();">
+        <i class="bi bi-play-circle"></i>
+      </a>
+      <div class="screen">
+        <div class="shadow"></div>
+        <div>
+          <span style="--i: 0">
+            <!---Insert the Screen Video--->
+            <!---Video data Mapping--->
+            <!---Match the video with class name--->
+            <!---Here, I only make one screen dynamic due to the limitation of videos but you can make all four screen dynamic, if you have more videos it will be really coooooollll!!!!--->
+            <video class="trailer mclaren-1 screen-video active"
+            src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Losi_Trailer.mp4" autoplay loop muted></video>
+            <video class="trailer mclaren-2 screen-video"
+            src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Serpent_Trailer.mp4" autoplay loop muted></video>
+            <video class="trailer mclaren-3 screen-video"
+            src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Sworkz_Trailer.mp4" autoplay loop muted></video>
+            <video class="trailer mclaren-4 screen-video"
+            src="../assest/robots_assets/videos_robots/mclaren-4.mp4" autoplay loop muted></video>
+            
+          </span>
+
+
+          <span style="--i: 1">
+            <video
+            src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Losi_Trailer.mp4" class='screen-video' autoplay loop muted></video>
+          </span>
+          <span style="--i: 2">
+            <video
+            src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Losi_Trailer.mp4" class='screen-video' autoplay loop muted></video>
+          </span>
+          <span style="--i: 3">
+            <video
+            src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Losi_Trailer.mp4" class='screen-video' autoplay loop muted></video>
+          </span>
+
+          <span style="--i: 1">
+            <video class="trailer mclaren-2 screen-video"
+            src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Serpent_Trailer.mp4" class='screen-video' autoplay loop muted></video>
+          </span>
+          <span style="--i: 2">
+            <video class="trailer mclaren-2 screen-video"
+            src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Serpent_Trailer.mp4" class='screen-video' autoplay loop muted></video>
+          </span>
+          <span style="--i: 3">
+            <video class="trailer mclaren-2 screen-video"
+            src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Serpent_Trailer.mp4" class='screen-video' autoplay loop muted></video>
+          </span>
+
+          <span style="--i: 1">
+            <video class="trailer mclaren-3 screen-video"
+            src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Sworkz_Trailer.mp4" class='screen-video' autoplay loop muted></video>
+          </span>
+          <span style="--i: 2">
+            <video class="trailer mclaren-3 screen-video"
+            src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Sworkz_Trailer.mp4" class='screen-video' autoplay loop muted></video>
+          </span>
+          <span style="--i: 3">
+            <video class="trailer mclaren-3 screen-video"
+            src="../assest/robots_assets/videos_robots/NitroRC_Trailer/Sworkz_Trailer.mp4" class='screen-video' autoplay loop muted></video>
+          </span>
+
+          <span style="--i: 1">
+            <video class="trailer mclaren-4 screen-video"
+            src="../assest/robots_assets/videos_robots/Vikram Trailer/20230507_163224.mp4" class='screen-video' autoplay loop muted></video>
+          </span>
+          <span style="--i: 2">
+            <video class="trailer mclaren-4 screen-video"
+            src="../assest/robots_assets/videos_robots/Vikram Trailer/VID-20230502-WA0036.mp4" class='screen-video' autoplay loop muted></video>
+          </span>
+          <span style="--i: 3">
+            <video class="trailer mclaren-4 screen-video"
+            src="../assest/robots_assets/videos_robots/Vikram Trailer/VID-20230508-WA0012.mp4" class='screen-video' autoplay loop muted></video>
+          </span>
+
+          
+
+        </div>
+      </div>
+      <div class="gallery">
+        <div class="carousel">
+          <a class="carousel-item" href="#" onclick="changeVideo('mclaren-1');">
+            <img src="../assest/robots_assets/img_robots/losi_img.png" alt="">
+            <h4>LOSI</h4>
+          </a>
+          <a class="carousel-item" href="#" onclick="changeVideo('mclaren-2');">
+            <img src="../assest/robots_assets/img_robots/Serpent&Sworkz_img.png" alt="">
+            <h4 style="color: #92ff00;">SERPENT</h4>
+          </a>
+          <a class="carousel-item" href="#" onclick="changeVideo('mclaren-3');">
+            <img src="../assest/robots_assets/img_robots/Serpent&Sworkz_img.png" alt="">
+            <h4 style="color: #ff0015;">SWORKZ</h4>
+          </a>
+          <a class="carousel-item" href="#" onclick="changeVideo('mclaren-4');">
+            <img src="../assest/robots_assets/img_robots/mclaren-4.jpeg" alt="">
+            <h4 style="color: #ff2e00;">VIKRAM</h4>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+
+    <!---Social Media--->
+    <ul class="sci">
+      <li><a href="https://www.instagram.com/team_wd_racing/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+      <li><a href="mailto: dotrobotics@gmail.com"><i class="bi bi-envelope-at"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCHkcvGdIyJuPzkvVzv9jHxw" target="_blank"><i class="bi bi-youtube"></i></a></li>
+    </ul>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../js/robots_script.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $('.carousel').carousel();
+      });
+      
+    </script>
+  </body>
+</html>

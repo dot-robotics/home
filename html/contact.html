@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <title>DOT Robotics</title>
+
+     <!---boxicons link--->
+     <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+ 
+     <!---remixicons link--->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!---custom css link--->
+    <link rel="stylesheet" type="text/css" href="../css/contact_style.css">
+
+    <!---google font link--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Kalam:wght@300&family=Kaushan+Script&family=Poiret+One&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/c32adfdcda.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <img src="../assest/contact_assests/DOT Logo 2022_White.png" alt="Logo" class="logo">
+        <ul class="navlist">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="robots.html">ROBOTS</a></li>
+            <li><a href="sponsor.html">SPONSORS</a></li>
+            <li><a href="builderlog.html">BUILDER LOGS</a></li>
+            <li><a href="store.html">PRODUCT & SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+  
+    <section>
+    
+        <div class="section-header">
+          <div class="container">
+            <h2>Contact Us</h2>
+            <p>We love the fans of this sport! You are the most engaged fans out there, and the reason we all continue to be a part of this. If you have comments, suggestions, or just want to say hi, we'd love to hear from you!</p>
+          </div>
+        </div>
+        
+        <div class="container">
+          <div class="row">
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                    <a href="https://www.instagram.com/dot_robotics/"><i class="ri-instagram-line"></i></a>
+                </div>
+                
+                <div class="contact-info-content">
+                  <h4>Instagram</h4>
+                  <p>@dot_robotics</p>
+                </div>
+              </div>
+              
+              
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                    <a href="mailto: dotrobotics@gmail.com"><i class="ri-mail-send-line"></i></a>
+                </div>
+                
+                <div class="contact-info-content">
+                  <h4>Email</h4>
+                  <p>bitdotrobotics@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+                <span class="border-line"></span>
+                <form action="" name="contact-us">
+                    <h2>Get in Touch</h2>
+                    <div class="inputBox">
+                        <input name = "name" type="text" required="required">
+                        <span>Name</span>
+                        <i></i>
+                    </div>
+                    <div class="inputBox">
+                        <input name = "email" type="text" required="required">
+                        <span>Mail ID</span>
+                        <i></i>
+                    </div>
+                    <div class="inputBox">
+                        <input name = "message" type="text" required="required">
+                        <span>Type your Message</span>
+                        <i></i>
+                    </div>
+                    <div class="links">
+                        <a href="#"> </a>
+                        <a href="#"> </a>
+                        <a href="#"> </a>
+                        <a href="#"> </a>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+                
+            </div>
+            
+            
+          </div>
+        </div>
+      </section>
+
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzVn9gZek7OmuoHyGpAmjzEoRBG8tSA_hLtsMN09P-xhZnPTtb_sNSynD_pP8Y690tz/exec'
+        const form = document.forms['contact-us']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => 
+            {
+              form.reset()
+              console.log('Success!', response)
+              alert('Received your Response, Our Team will reach you Shortly. Thank You!')
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+       <!--Scroll Reveal Effect--->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!---custom js link--->
+    <script src="../js/index_script.js"></script>
+      
+    
+</body>
+</html>
+
+
