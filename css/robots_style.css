@@ -487,6 +487,7 @@ header .menu.active{
         padding: 2px 20px;
     }
     .banner .content h1 {
+        font-family: 'Space Grotesk', sans-serif;
         font-size: 5em;
     }
     .banner .content .model {
