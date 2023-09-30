@@ -487,14 +487,14 @@ header .menu.active{
         padding: 2px 20px;
     }
     .banner .content h1 {
-        font-family: 'Space Grotesk', sans-serif;
-        font-size: 5em;
+        font-family: 'Gtek Technology', sans-serif;
+        font-size: 3em;
     }
     .banner .content .model {
         font-size: 2em;
     }
     .banner .content a {
-        bottom: 350px;
+        bottom: 325px;
         left: 55%;
         padding: 15px 25px;
     }
