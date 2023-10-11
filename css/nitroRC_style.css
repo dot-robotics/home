@@ -41,14 +41,14 @@ header::after {
 }
 
 .logo img{
-    max-width: 120px;
+    max-width: 180px;
 }
 
 header .year {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 1em;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin-top: 40px;
 }
 
@@ -199,8 +199,9 @@ header .menu.active{
     font-size: 6em;
     color: #fff;
     font-weight: 100;
-    line-height: 0.8em;
+    line-height: 0.9em;
     letter-spacing: 5px;
+    margin-top: 70px;
 }
 .banner .content p {
     font-family: 'Poppins', sans-serif;
@@ -487,13 +488,14 @@ header .menu.active{
         padding: 2px 20px;
     }
     .banner .content h1 {
-        font-size: 5em;
+        font-family: 'Gtek Technology', sans-serif;
+        font-size: 3em;
     }
     .banner .content .model {
         font-size: 2em;
     }
     .banner .content a {
-        bottom: 350px;
+        bottom: 325px;
         left: 55%;
         padding: 15px 25px;
     }
