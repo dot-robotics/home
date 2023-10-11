@@ -299,22 +299,6 @@ header .menu.active{
     transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
     /*300px / 2 = 150px*/
 }
-.shadow {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 200px;
-    background: var(--primary);
-    transform: rotateX(-90deg) translateZ(150px);
-    filter: blur(20px);
-    box-shadow: 0 0 120px rgba(0, 194, 222, 0.2),
-    0 0 120px rgba(0, 194, 222, 0.4),
-    0 0 120px rgba(0, 194, 222, 0.6),
-    0 0 120px rgba(0, 194, 222, 0.8),
-    0 0 120px rgba(0, 194, 222, 1);
-}
 
 /*Screen Video*/
 .screen div span video{
