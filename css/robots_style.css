@@ -201,6 +201,7 @@ header .menu.active{
     font-weight: 100;
     line-height: 0.8em;
     letter-spacing: 5px;
+    margin-top: 70px;
 }
 .banner .content p {
     font-family: 'Poppins', sans-serif;
