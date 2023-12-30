@@ -256,14 +256,7 @@ header{
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-.sponsors-text h1:after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 48%;
-  border: 1.5px solid rgb(46, 46, 46);
-  width: 3%;
-}
+
 .sponsor-img {
   text-align: center; /* Center align the images horizontally */
 }
@@ -307,14 +300,7 @@ header{
   color: #ffffff;
   text-align: center;
 }
-.upcoming-events-text h1:after {
-  content: "";
-  position: absolute;
-  bottom: -63%;
-  left: 48%;
-  border: 1.5px solid rgb(97, 97, 97);
-  width: 3%;
-}
+
 .upcoming-events-text p{
   text-align: center;
   padding: auto;
@@ -361,14 +347,6 @@ header{
   color: rgb(0, 0, 0);
   text-align: center;
   align-items: center;
-}
-.inside-the-bot-text h1:after {
-  content: "";
-  position: absolute;
-  bottom: 83%;
-  left: 48%;
-  border: 1.5px solid rgb(0, 0, 0);
-  width: 3%;
 }
 .blog-box-container{
 display: flex;
@@ -596,14 +574,6 @@ img:hover {
   align-items: center;
   text-transform: uppercase;
 }
-.inside-the-bot-text-feed h1:after {
-  content: "";
-  position: absolute;
-  top: 2.2%;
-  left: 48%;
-  border: 1.5px solid rgb(44, 44, 44);
-  width: 3%;
-}
 .blog-box-container-feed{
 display: flex;
 justify-content: center;
@@ -778,14 +748,6 @@ color: rgb(96, 96, 96);
     line-height: 2;
     text-transform: uppercase;
 }
-.pos-cen-text h1:after {
-    content: "";
-    position: absolute;
-    top: 32%;
-    left: 5.8%;
-    border: 1.5px solid rgb(0, 0, 0);
-    width: 5%;
-}
 .pos-cen-text p{
     line-height: 1.8;
 }
@@ -826,14 +788,6 @@ color: rgb(96, 96, 96);
     line-height: 2;
     text-transform: uppercase;
 }
-.pos-cen-text-1 h1:after {
-    content: "";
-    position: absolute;
-    top: 32%;
-    left: 5.8%;
-    border: 1.5px solid rgb(0, 0, 0);
-    width: 5%;
-}
 .pos-cen-text-1 p{
     line-height: 1.8;
 }
@@ -854,14 +808,6 @@ color: rgb(96, 96, 96);
     text-transform: uppercase;
     padding: 60px;
 }
-.team-partners h1:after {
-    content: "";
-    position: absolute;
-    top: 61%;
-    left: 48%;
-    border: 1.5px solid rgb(44, 44, 44);
-    width: 3%;
-}
 .team-partners-image-container {
     text-align: center;
 }
@@ -877,14 +823,6 @@ color: rgb(96, 96, 96);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
-}
-.new-sponsors h1:after {
-  content: "";
-  position: absolute;
-  bottom: 6.2%;
-  left: 48%;
-  border: 1.5px solid rgb(46, 46, 46);
-  width: 3%;
 }
 .new-sponsors p{
   text-align: center;
