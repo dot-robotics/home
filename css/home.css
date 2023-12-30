@@ -1021,6 +1021,19 @@ footer p:nth-child(2){
   .inside-the-bot-text-feed i{
     display: none;
   }
+  .inside-the-bot-text-feed h1:after {
+    display:none;
+  }
+  .inside-the-bot-text h1:after{
+    display:none;
+  }
+  .upcoming-events-text h1:after {
+    display: none;
+  }
+  .sponsors-text h1:after {
+  display: none;
+}
+  
   .nav-btn {
     transform: translateX(15%);
     
