@@ -16,6 +16,73 @@ html {
   height: 120px; /* Set the height of the container as needed */
 }
 
+
+
+.featured-image {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  padding: 0px 30px;
+}
+
+.featured-image img {
+  width: 100%;
+  height: auto;
+}
+.inside-the-bot-text img{
+  position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.blog-post {
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+.blog-post h2 {
+  font-size: 22px;
+  text-align: center;
+  
+}
+.blog-post p{
+  color: black;
+  
+}
+.blog-post h7{
+  color: #777;
+  font-size: 14px;
+
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 900px;
+  text-align: center;
+  background: white;
+}
+.content h2{
+  color: #000000;
+}
+.content p{
+  color: #000;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+      padding: 10px;
+  }
+}
+
 .logo {
   position: absolute;
   top: 10%;
@@ -636,18 +703,14 @@ transition: all ease 0.3s;
   align-items: center;
   color: #ffffff;
   animation: fade 0.3s;
-  
 }
-
-
+.blog-box-feed:hover .blog-box-img-feed a{
+  transform: scale(-12%);
+}
 .blog-box-feed:hover .blog-box-img-feed img{
   filter: brightness(80%);
   transform: scale(0.9);
 }
-.blog-box-feed:hover .blog-box-img-feed a{
-  display: flex;
-}
-
 @keyframes fade {
 0%{
   opacity: 0;
