@@ -323,14 +323,6 @@ header{
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-.sponsors-text h1:after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 48%;
-  border: 1.5px solid rgb(46, 46, 46);
-  width: 3%;
-}
 .sponsor-img {
   text-align: center; /* Center align the images horizontally */
 }
@@ -372,14 +364,6 @@ header{
   font-size: 30px;
   color: #ffffff;
   text-align: center;
-}
-.upcoming-events-text h1:after {
-  content: "";
-  position: absolute;
-  bottom: -63%;
-  left: 48%;
-  border: 1.5px solid rgb(97, 97, 97);
-  width: 3%;
 }
 .upcoming-events-text p{
   text-align: center;
@@ -652,14 +636,6 @@ img:hover {
   color: rgb(0, 0, 0);
   text-align: center;
   align-items: center;
-}
-.inside-the-bot-text-feed h1:after {
-  content: "";
-  position: absolute;
-  bottom: 89%;
-  left: 48%;
-  border: 1.5px solid rgb(0, 0, 0);
-  width: 3%;
 }
 .blog-box-container-feed{
 display: flex;
@@ -944,9 +920,6 @@ footer p:nth-child(2){
     height: 70px;
     width: auto;
   }
-  .inside-the-bot-text h1:after {
-    bottom: 81%;
-  }
   .blog-box-img-link{
     transform: translate(-50%, -520%);
   }
@@ -963,10 +936,6 @@ footer p:nth-child(2){
   .sponsor img {
     height: 50px;
     width: auto;
-  }
-  .inside-the-bot-text h1:after {
-    bottom: 77%;
-    width: 10%;
   }
 }
 @media(max-width: 768px){
@@ -1038,11 +1007,6 @@ footer p:nth-child(2){
     width: 200%;
     height: auto;
   }
-  .upcoming-events-text h1:after {
-    bottom: -69.4%;
-    border: 1.5px solid rgb(183, 183, 183);
-    width: 10%;
-  }
   .container-events {
     display: block;
   }
@@ -1051,14 +1015,6 @@ footer p:nth-child(2){
   }
   .blog-box-container-feed{
     display: block;
-  }
-  .inside-the-bot-text-feed h1:after {
-    bottom: 93%;
-    width: 10%;
-  }
-  .inside-the-bot-text h1:after{
-    bottom: 70%;
-    width: 6%;
   }
   
   footer p:nth-child(1){
