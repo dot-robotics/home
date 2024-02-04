@@ -1154,7 +1154,7 @@ footer .wave#wave4 {
   .hero {
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: 110vh;
   }
   .flow-3 {
     padding: 20px;
@@ -1289,6 +1289,13 @@ footer .wave#wave4 {
   .navlist-2 {
     position: absolute;
     top: 500%;
+  }  
+  body {
+    width: 110%;
+  }
+  
+  .blogs-overview-text a {
+    padding: 6px 22px;
   }  
 }
 
