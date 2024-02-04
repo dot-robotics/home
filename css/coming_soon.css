@@ -12,6 +12,14 @@
     background-size: cover;
     padding: 0 8%;
 }
+#preloader {
+    background: black url(../img/home_img/preloader.gif) no-repeat center center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
 .logo {
     width: 180px;
     padding: 20px 0;
