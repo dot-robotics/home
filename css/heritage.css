@@ -132,6 +132,9 @@ header {
     transform: rotate(90deg);
     display: inline-block;
 }
+.rotate a {
+  color: #000;
+}
 .feedback-button:hover {
     background-color: white; /* Change the background color as needed */
     color: black;
