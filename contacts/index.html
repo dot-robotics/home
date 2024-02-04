@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1">
+        <title>Contact :: DOT Robotics</title>
+        <link rel="shortcut icon" type="image/png" href="../img/DOTFavicon.png"/>
+
+        <!---custom css link--->
+        <link rel="stylesheet" type="text/css" href="../css/contacts.css">
+
+        <!---boxicons link--->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        
+
+        <!---remixicons link--->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <link href="https://db.onlinewebfonts.com/c/046210116bdb19fab8598d79680bb09d?family=LabSansPro-BoldItalic" rel="stylesheet">
+        <!---google font link--->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Jost:wght@100&family=Kalam:wght@300&family=Kaushan+Script&family=Poiret+One&family=Poppins:wght@300;400;500;600;700;800;900&family=REM:wght@300&family=Racing+Sans+One&family=Rajdhani:wght@300&family=Roboto+Condensed:wght@100&family=Space+Grotesk&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div id="preloader"></div>
+        <header>    
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <ul class="navlist">
+              <li><a href="#about">About</a></li>
+              <li><a href="#">Robots</a></li>
+              <li><a href="../partners/index.html">Partners</a></li>
+              <li><a href="../contacts/index.html">Contacts</a></li>
+              <li><a href="../coming soon/index.html">Projects-OS</a></li>
+          </ul>
+          <ul class="navlist-2">
+              <li><a href="../blogs/index.html">Latest</a></li>
+              <li><a href="../heritage/index.html">Heritage</a></li>
+              <a href="https://www.instagram.com/dot_robotics/" class="nav-btn">Store</a>
+          </ul>
+            <div class="logo-container">
+                <img src="../img/home_img/DOT Logo 2022_White.png" alt="Logo" class="logo">
+            </div>
+        </header>
+        <section>
+    
+            <div class="section-header">
+              <div class="container">
+                <h2>Contact Us</h2>
+                <p>We love the fans of this sport! You are the most engaged fans out there, and the reason we all continue to be a part of this. If you have comments, suggestions, or just want to say hi, we'd love to hear from you!</p>
+              </div>
+            </div>
+            
+            <div class="container">
+              <div class="row">
+                <div class="contact-info">
+                  <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <a href="https://www.instagram.com/dot_robotics/"><i class="ri-instagram-line"></i></a>
+                    </div>
+                    
+                    <div class="contact-info-content">
+                      <h4>Instagram</h4>
+                      <p>@dot_robotics</p>
+                    </div>
+                  </div>
+                  
+                  
+                  <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <a href="mailto: dotrobotics@gmail.com"><i class="ri-mail-send-line"></i></a>
+                    </div>
+                    
+                    <div class="contact-info-content">
+                      <h4>Email</h4>
+                      <p>bitdotrobotics@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                    <span class="border-line"></span>
+                    <form action="" name="contact-us">
+                        <h2>Get in Touch</h2>
+                        <div class="inputBox">
+                            <input name = "name" type="text" required="required">
+                            <span>Name</span>
+                            <i></i>
+                        </div>
+                        <div class="inputBox">
+                            <input name = "email" type="text" required="required">
+                            <span>Mail ID</span>
+                            <i></i>
+                        </div>
+                        <div class="inputBox">
+                            <input name = "message" type="text" required="required">
+                            <span>Type your Message</span>
+                            <i></i>
+                        </div>
+                        <div class="links">
+                            <a href="#"> </a>
+                            <a href="#"> </a>
+                            <a href="#"> </a>
+                            <a href="#"> </a>
+                        </div>
+                        <input type="submit" value="Submit">
+                    </form>
+                    
+                </div>
+                
+                
+              </div>
+            </div>
+          </section>
+    
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzVn9gZek7OmuoHyGpAmjzEoRBG8tSA_hLtsMN09P-xhZnPTtb_sNSynD_pP8Y690tz/exec'
+            const form = document.forms['contact-us']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => 
+                {
+                  form.reset()
+                  console.log('Success!', response)
+                  alert('Received your Response, Our Team will reach you Shortly. Thank You!')
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+           <!--Scroll Reveal Effect--->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!---custom js link--->
+
+
+        <script>
+            var loader = document.getElementById("preloader");
+            window.addEventListener("load", function(){
+                loader.style.display = "none";
+            })
+        </script>
+        <script src="../script/robowar.js"></script>
+    
+    </body>
+</html>
