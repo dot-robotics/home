@@ -132,9 +132,6 @@ header {
     transform: rotate(90deg);
     display: inline-block;
 }
-.rotate a {
-  color: #000;
-}
 .feedback-button:hover {
     background-color: white; /* Change the background color as needed */
     color: black;
@@ -268,6 +265,7 @@ font-weight: 100;
   background-color: #ffffff;
   height: 90vh;
 }
+
 .left-column,
 .right-column {
   flex: 1;
@@ -666,6 +664,9 @@ footer .wave#wave4 {
   .timeline {
     max-width: 600px;
   }
+  .container-timeline{
+    display: block;
+  }
   .container {
     display: block;
   }
@@ -686,9 +687,7 @@ footer .wave#wave4 {
     display: block;
     margin: 12px 10px;
   }
-  .container {
-    height: 100vh;
-  }
+  
   .navlist-2 {
     position: absolute;
     top: 700%;
@@ -918,6 +917,7 @@ footer .wave#wave4 {
         right: -6%;
     }    
 
+  
 
 }
 @media screen and (max-width: 392px) { 
