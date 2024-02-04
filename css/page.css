@@ -160,6 +160,15 @@ main .content .content-img-container {
     background-size: cover;
     background-position: center / cover;
 }
+.container .card-container.one .img-holder{
+    background: url("../img/blog_img/Atheera.png") no-repeat center center / cover;
+}
+.container .card-container.two .img-holder{
+    background: url("../img/blog_img/Loki_render.jpg.png") no-repeat center center / cover;
+}
+.container .card-container.three .img-holder{
+    background: url("../img/blog_img/honey-badger.png") no-repeat center center / cover;
+}
 .atheera-v2 {
     background-image: url(../img/blog_img/meet-the-bots/atheera_v2_blog.jpg);
 }
